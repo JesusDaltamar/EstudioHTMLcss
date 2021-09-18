@@ -1,0 +1,36 @@
+p{
+    color: red;
+}
+h3{
+    color: blue;
+}
+a{
+    background-color: chartreuse;
+}
+#Parrafo3{
+    color:green
+}
+.ParrafoGris{
+    color: gray;
+}
+.ParrafoNegro{
+    color: black;
+}
+.TextoGris{
+    color: gray;
+}
+.TextoAzul{
+    color:blue;
+}
+.fondorojo{
+    background-color: red;
+}
+.fondoamarillo{
+    background-color: yellow;
+}
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
