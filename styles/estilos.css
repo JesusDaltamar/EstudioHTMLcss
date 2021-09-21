@@ -11,6 +11,14 @@ ul{
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(167, 166, 233);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+.navbar > li {
+    display:flex;
+    align-items: center;
 }
 .logo{
     height: 70px;
@@ -46,6 +54,9 @@ ul{
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 .buscar > input{
     outline: none;
@@ -53,4 +64,7 @@ ul{
 }
 .buscar:focus-within{
     border: 1px solid blue;
+}
+.iconoBusqueda:hover{
+    color: blue;
 }
